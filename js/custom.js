@@ -7,6 +7,8 @@ var win = $(window);
 var ww = win.width();
 var wh = win.height();
 
+var resizeTimer;
+
 $(document).ready(function() {
 
     // load functions
@@ -28,13 +30,18 @@ win.on('load', function() {
 
 win.on('resize', function() {
 
-    // viewport dimensions
-    ww = win.width();
-    wh = win.height();
+    // delay grid function to apply only last resize
+    clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(function() {
+  
+        // viewport dimensions
+        ww = win.width();
+        wh = win.height();
 
-    // load functions
-    grid();
-    
+        // load functions
+        grid();
+              
+    }, 250);    
 
 });
 
