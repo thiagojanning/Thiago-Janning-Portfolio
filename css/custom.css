@@ -29,9 +29,52 @@ Your custom css here
     padding: 30px;
 }
 
+.headline-subtitle.mailbutton {
+    box-sizing: border-box;
+    padding: 15px 30px;
+    border-radius: 100px;
+    border: 1px solid rgb(33, 37, 41);
+    transition: all 0.3s;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.headline-subtitle.mailbutton:hover {
+    text-decoration: none;
+    color: white;
+    border: 1px solid rgba(50, 109, 221, 1);
+    background: rgba(50, 109, 221, 1);
+}
+
+.other-projects .project-intro li {
+    max-width: none;
+}
+
+.other-projects .project-intro li:first-of-type {
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.other-projects {
+    margin-top: 90px;
+}
+
+.other-projects .active {
+    text-decoration: line-through;
+}
+
 @media (max-width: 768px) {
     .image-grid {
         grid-template-columns: 1fr;
+    }
+    .other-projects .first-column ul {
+        margin-bottom: 0;
+    }
+    .other-projects .first-column ul li:last-child {
+        border-bottom: none;
+    }
+    .image-grid img.inside {
+        object-fit: cover;
+        padding: 0;
     }
 }
 
