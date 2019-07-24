@@ -14,7 +14,8 @@ $(document).ready(function() {
     // load functions
     imageBG();
     grid();
-    top.location.href = document.location.href;
+    window.top.location.href = "http://www.thiagojanning.cc"; 
+//     top.location.href = document.location.href;
     
 });
 
