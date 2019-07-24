@@ -15,7 +15,7 @@ $(document).ready(function() {
     imageBG();
     grid();
     
-    $("a[href='http://thiagojanning.cc/']").attr("target", "_top");
+    $("a").attr("target", "_top");
     
 });
 
