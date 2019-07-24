@@ -14,12 +14,11 @@ $(document).ready(function() {
     // load functions
     imageBG();
     grid();
+    top.location.href = document.location.href;
     
 });
 
 win.on('load', function() {
-
-    top.location.href = document.location.href;
     
     setTimeout(function() {
         $('#preloader').addClass('hide');
