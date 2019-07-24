@@ -25,9 +25,6 @@ win.on('load', function() {
 
     // load functions
     grid();
-    
-    window.top.location.href = "http://www.thiagojanning.cc"; 
-//     top.location.href = document.location.href;
 
 });
 
