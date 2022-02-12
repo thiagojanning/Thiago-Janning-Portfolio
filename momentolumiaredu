@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="author" content="sharebootstrap.com" />
+        <meta name="description" content="free bootstrap template by sharebootstrap.com">
+        <link rel="canonical" href="https://sharebootstrap.com" />
+        <title>Momento LumiarEdu | Thiago Janning</title>
+        <!-- Bootstrap core CSS -->
+        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <!-- Fontaweome icons replacment -->
+        <link rel="stylesheet" href="https://maxcdn.icons8.com/fonts/line-awesome/1.1/css/line-awesome-font-awesome.min.css">
+        <!-- Theme styles for this template -->
+        <link href="css/style.css" rel="stylesheet">
+        <!-- Your Custom styles for this template -->
+        <link href="css/custom.css" rel="stylesheet"> </head>
+
+   <body>
+    <div id="preloader">
+        <div id="loader"></div>
+    </div>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top py-3" id="mainNav">
+        <div class="container"> <a class="navbar-brand js-scroll-trigger" href="index.html">Thiago Janning</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"> <a class="nav-link js-scroll-trigger" href="index.html">Works</a> </li>
+                        <li class="nav-item"> <a class="nav-link js-scroll-trigger" href="contact.html">Contact</a> </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <header class="space-md">
+        <div class="container">
+            <div class="row d-flex align-content-center">
+                <div class="col-md-6">
+                    <div class="headline mt-0 mb-0">
+                        <div class="headline-content">
+                            <h1 class="headline-title display-3">Momento LumiarEdu</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <p class="lead mt-3">Momento LumiarEdu (Lumiar Edu Moment) (Lumiar Edu Moment) was an event to attract new franchisees or schools that wanted to use Lumiar methodology or Mosaico (Lumiar’s platform).</p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="">
+        <div class="container">
+            <figure> <img src="img/MomentoLumiarEdu.gif" alt="" class="img-fluid"> </figure>
+            <div class="row d-flex justify-content-start space-md">
+                <div class="col-md-2">
+                    <ul class="list-unstyled project-intro">
+                        <li class="title">What I Did</li>
+                        <li>Branding</li>
+                        <li>UI</li>
+                    </ul>
+                </div>
+                <div class="col-md-7 offset-md-1">
+                    <p class="h4">The landing page was intended to briefly explain the event and needed to include a registration form. To differentiate Lumiar's traditional communication, the blue of the brand palette was used as the predominant color, while the traditional yellow was used as a secondary color.</p>
+                </div>
+            </div>
+            <!-- grid de imagens. pode colocar quantas <figure> precisar, sempre vai ficar do tamanho certo. -->
+            <div class="image-grid">
+             
+            </div>
+
+        <!-- other projects -->
+     
+
+
+     <!-- footer -->
+        <footer class="footer pb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="copy text-center">&copy; 2022 Thiago Janning</div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    <!-- /main content -->
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
+    <!-- Custom JavaScript for this theme -->
+    <script src="js/custom.js"></script>
+</body>
+
+</html>
