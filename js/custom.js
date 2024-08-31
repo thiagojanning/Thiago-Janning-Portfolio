@@ -72,7 +72,26 @@ function show_hide_header() {
 
 }
 
+/** Filter*/
+/** ===================== */
+$(document).ready(function() {
+    // Initialize Isotope
+    var $grid = $('.grid').isotope({
+        // options
+        itemSelector: '.grid-item',
+        layoutMode: 'fitRows',
+        filter: '.ui-ux' // Set the default filter to "UI/UX"
+    });
 
+    // Filter items on button click
+    $('.filter-button-group').on('click', 'button', function() {
+        var filterValue = $(this).attr('data-filter');
+        $grid.isotope({ filter: filterValue });
+    });
+
+    // Optionally, add active class to the default button
+    $('.filter-button-group button[data-filter=".ui-ux"]').addClass('active');
+});
 
 /** BACKGROUND IMAGES */
 /** ===================== */
