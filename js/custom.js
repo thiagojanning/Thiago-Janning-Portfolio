@@ -166,7 +166,12 @@ function grid() {
             });
         });
     };
-
+<script>
+    $(document).ready(function(){
+        // Trigger the UX/UI filter by default
+        $('#filters a[href=".uxui"]').trigger('click');
+    });
+</script>
 }
 
 
