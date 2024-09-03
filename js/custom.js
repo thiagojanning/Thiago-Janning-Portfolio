@@ -46,9 +46,6 @@ win.on('resize', function() {
     }, 250);    
 
 });
-
-
-
 /** SHOW/HIDE HEADER */
 /** ===================== */
 
