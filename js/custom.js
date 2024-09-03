@@ -166,16 +166,6 @@ function grid() {
             });
         });
     };
-<!-- Isotope library -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
-
-<!-- Your custom JavaScript -->
-<script>
-    $(document).ready(function(){
-        // Trigger the UX/UI filter by default
-        $('#filters a[href=".uxui"]').trigger('click');
-    });
-</script>
 }
 
 
